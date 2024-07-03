@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=0">
+    <title>Guitar to Piano Converter</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Guitar to Piano Converter</h1>
+    
+    <img src="guitar.png">
+    <div id="container">
+        <p><b>Enter guitar notes separated by spaces:</b></p>
+        <input type="text" id="inputNotes" placeholder="E2 A3 D4 ..." onkeyup="checkEnter(event)">
+        <button id="convertButton">Convert</button>
+        <div id="output"></div>
+    </div>
+    <script src="index.ts"></script>
+
+    <footer>
+        <center>
+            <p>Disclaimer | Privacy Policy | Email | Terms & Conditions</p>
+            <p>Contact: alpha123@gmail.com</p>
+        </center>
+    </footer>
+</body>
+</html>

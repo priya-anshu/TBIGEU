@@ -1,0 +1,119 @@
+/* Styles for Logo and Heading */
+.logo-heading {
+    color: #000000;
+    text-align: left;
+}
+
+.logo-heading h1 {
+    color: #000000;
+    text-align: center;
+}
+
+/* Styles for Scrolling Text */
+marquee {
+    behavior: scroll;
+    direction: left;
+}
+
+/* Styles for Course Details */
+h1 {
+    text-align: center;
+}
+
+p {
+    font-size: 25px;
+    color: green;
+    text-align: left;
+}
+
+.course-intro hr {
+    width: 50%;
+    margin: 0%;
+}
+
+/* Styles for Course Information */
+h2 {
+    text-align: center;
+}
+
+.course-info {
+    border-color: white;
+    margin: 0px;
+}
+
+.table-header {
+    color: red;
+}
+
+/* Styles for University Information */
+.university-info h1 {
+    text-align: center;
+}
+
+.university-info h4 {
+    text-align: left;
+}
+
+/* Styles for Footer */
+footer {
+    text-align: center;
+}
+
+
+/* Styles for Form */
+.container {
+    width: 30%;
+    margin-left: 100px;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    width: 80%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+textarea {
+    resize: vertical;
+}
+
+button[type="submit"] {
+    background-color: #00ccff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="submit"]:hover {
+    background-color: #1ec0e9;
+}
+
+button[type="reset"] {
+    background-color: #ff0000;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button[type="reset"]:hover {
+    background-color: #f51010;
+}

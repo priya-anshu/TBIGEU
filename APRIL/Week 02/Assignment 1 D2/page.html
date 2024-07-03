@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<head> <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Simple Calculator<br></h1>
+    <div id="cal">
+        <input type="text" id="console" readonly>   
+        
+        <div id="buttons">
+            <button type="button" class="a1" onclick="
+            cdisplay = '' 
+            document.querySelector('#console').value=cdisplay;
+            "> AC</button>
+            <button type="button" class="b1" > ()</button>
+            <button type="button" class="b1" onclick="
+            cdisplay+='%' 
+            document.querySelector('#console').value=cdisplay;
+            "> %</button>
+            <button type="button" class="b1" onclick="
+            cdisplay+='/' 
+            document.querySelector('#console').value=cdisplay;
+            "> &#247;</button>
+     
+            <button type="button" class="n1" onclick="
+            cdisplay+='7' 
+            document.querySelector('#console').value=cdisplay;
+            "> 7</button>
+            <button type="button" class="n1" onclick="
+            cdisplay+='8' 
+            document.querySelector('#console').value=cdisplay;
+            "> 8</button>
+            <button type="button" class="n1" onclick="
+            cdisplay+='9' 
+            document.querySelector('#console').value=cdisplay;
+            "> 9</button>
+            <button type="button" class="b1" onclick="
+            cdisplay+='*' 
+            document.querySelector('#console').value=cdisplay;
+            "> &#215;</button>
+   
+            <button type="button" class="n1" onclick="
+            cdisplay+='4' 
+            document.querySelector('#console').value=cdisplay;
+            "> 4</button>
+            <button type="button" class="n1" onclick="
+            cdisplay+='5' 
+            document.querySelector('#console').value=cdisplay;
+            "> 5</button>
+            <button type="button" class="n1" onclick="
+            cdisplay+='6' 
+            document.querySelector('#console').value=cdisplay;
+            "> 6</button>
+            <button type="button" class="b1" onclick="
+            cdisplay+='-' 
+            document.querySelector('#console').value=cdisplay;
+            "> -</button>
+       
+            <button type="button" class="n1" onclick="
+                cdisplay+='1' 
+                document.querySelector('#console').value=cdisplay;
+                "> 1</button>
+            <button type="button" class="n1" onclick="
+            cdisplay+='2' 
+            document.querySelector('#console').value=cdisplay;
+            "> 2</button>
+            <button type="button" class="n1" onclick="
+            cdisplay+='3' 
+            document.querySelector('#console').value=cdisplay;
+            "> 3</button>
+            <button type="button" class="b1" onclick="
+            cdisplay+='+' 
+            document.querySelector('#console').value=cdisplay;
+            "> +</button>
+     
+            <button type="button" class="b1" onclick="
+            cdisplay+='.' 
+            document.querySelector('#console').value=cdisplay;
+            "> <b>.</b></button>
+            <button type="button" class="n1" onclick="
+            cdisplay+='0' 
+            document.querySelector('#console').value=cdisplay;
+            "> 0</button>
+            
+            <button type="button" class="e1" onclick="
+            let res = eval(cdisplay);
+            cdisplay= res; 
+            document.querySelector('#console').value=cdisplay;
+            "> =</button>
+        </div>
+    </div>
+
+    <script>
+        let cdisplay = '';
+        document.querySelector('#console').value=cdisplay;
+    </script>
+</body>

@@ -1,0 +1,55 @@
+#cal{
+    border: 1px rgb(218, 27, 27);
+    border-radius: 3px;
+    width: 250px;
+    
+}
+
+#console{
+    width: 82%;
+    font-size: 25px;
+    border-radius: 5px;   
+}
+
+#buttons{
+    border: 3px black;
+    border-radius: 3px;
+    flex-wrap: wrap;
+}
+
+.n1{
+    height: 50px;
+    width: 50px;
+    background-color: gray;
+    border-radius: 50%;
+}
+
+.a1{
+    background-color: blueviolet;
+    height: 50px;
+    border-radius: 50%;
+    width: 50px;
+}
+
+.e1{
+    background-color: green;
+    height: 50px;
+    border-radius: 50%;
+    width: 50px;
+}
+
+.b1{
+    border-radius: 50%;
+    height: 50px;
+    width: 50px;
+    padding-bottom: 3px;
+    background-color: rgb(238, 250, 246);
+}
+
+
+
+body{
+    height: fit-content ;
+    width: fit-content;
+    border-radius: 50%;
+}
